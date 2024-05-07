@@ -1,0 +1,127 @@
+
+body{
+    
+    background: rgb(199,247,255);
+background: radial-gradient(circle, rgba(199,247,255,1) 0%, rgba(93,168,230,1) 100%);
+
+}
+h1{
+    text-align: center;
+    color: #43487F;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #0cbfdf98;
+font-size: 3em; color: #43487f;
+    
+}
+.botao1{
+    width: 220px;
+    position: absolute;
+    left: 37%;
+    top: 20%;
+    border-color: #3498db;
+    color: #43487F;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background-color:#43487F;
+    border: none;
+    color: #fff;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.botao1:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.botao2{
+    width: 220px;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    border-color: #3498db;
+    color: #43487F;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background-color:#43487F;
+    border: none;
+    color: #fff;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.botao2:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.botao3{
+    width: 220px;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    border-color: #3498db;
+    color: #43487F;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background-color:#43487F;
+    border: none;
+    color: #fff;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.botao3:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
